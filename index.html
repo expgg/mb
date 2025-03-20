@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manhwa Reader</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo-button">
+                    <img src="images/logo.svg" alt="Manhwa Reader" class="logo">
+                </a>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search manhwa by title or genre...">
+                    <button id="search-button">Search</button>
+                </div>
+                <a href="https://github.com/expgg" class="github-button" target="_blank">
+                    <img src="images/github-icon.svg" alt="GitHub" width="24" height="24">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="manhwa-grid" id="manhwa-grid">
+                <!-- Manhwa tiles will be dynamically loaded here -->
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Manhwa Reader. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/chapters/solo-leveling-chapters.js"></script>
+    <script src="js/chapters/tower-of-god-chapters.js"></script>
+    <script src="js/chapters/true-education-chapters.js"></script>
+    <script src="js/chapters/guard-pass-chapters.js"></script>
+    <script src="js/chapters/lookism-chapters.js"></script>
+    <script src="js/chapters/mercenary-enrollment-chapters.js"></script>
+    <script src="js/chapters/the-beginning-after-the-end-chapters.js"></script>
+    <script src="js/chapters/leveling-up-by-only-eating-chapters.js"></script>
+    <script src="js/chapters/wind-breaker-chapters.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

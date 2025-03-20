@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manhwa Reader</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" id="back-to-chapters" class="logo-button">
+                <img src="images/logo.svg" alt="Manhwa Reader" class="logo">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            
+            <div class="reader-container">
+                <div class="reader-header">
+                    <div class="reader-title" id="chapter-title">Chapter Title</div>
+                    <div class="reader-controls">
+                        <button id="prev-chapter" class="reader-btn">Previous Chapter</button>
+                        <button id="next-chapter" class="reader-btn">Next Chapter</button>
+                    </div>
+                </div>
+                <div class="reader-content" id="reader-content">
+                    <!-- Manhwa images will be dynamically loaded here -->
+                </div>
+            </div>
+
+            <div class="chapters-dropdown">
+                <button class="dropdown-btn" id="dropdown-toggle">≡</button>
+                <div class="dropdown-content" id="dropdown-content">
+                    <!-- Chapter list will be dynamically loaded here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Manhwa Reader. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/chapters/solo-leveling-chapters.js"></script>
+    <script src="js/chapters/tower-of-god-chapters.js"></script>
+    <script src="js/chapters/true-education-chapters.js"></script>
+    <script src="js/chapters/guard-pass-chapters.js"></script>
+    <script src="js/chapters/lookism-chapters.js"></script>
+    <script src="js/chapters/mercenary-enrollment-chapters.js"></script>
+    <script src="js/chapters/the-beginning-after-the-end-chapters.js"></script>
+    <script src="js/chapters/leveling-up-by-only-eating-chapters.js"></script>
+    <script src="js/chapters/wind-breaker-chapters.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/reader.js"></script>
+</body>
+</html>

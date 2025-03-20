@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <style>
+    .accent { fill: #ff3333; }
+  </style>
+  <rect x="0" y="5" width="30" height="30" rx="5" class="accent" />
+  <path d="M10 15 L15 25 L20 15 M15 25 L15 15" stroke="white" stroke-width="2" fill="none" />
+</svg>
